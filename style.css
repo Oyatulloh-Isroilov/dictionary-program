@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+input[type="text"],
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+
+#translations div {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+#searchInput,
+#result {
+  margin: 10px 0;
+}
+
+hr {
+  width: 50%;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
